@@ -1,1 +1,1 @@
-#include "TPGUI/include/TPGUI.hpp"
+#include "TPGUI.hpp"
