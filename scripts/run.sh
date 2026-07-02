@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 set -e
 
-./build/TravianPlanner.exe
+./build/TravianPlanner

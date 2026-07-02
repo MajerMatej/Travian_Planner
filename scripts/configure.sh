@@ -1,3 +1,5 @@
-set -e
+#!/usr/bin/env sh
 
-cmake -B build -G Ninja
+set -e
+ 
+cmake -S . -B build -G Ninja
