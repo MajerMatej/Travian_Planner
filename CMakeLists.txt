@@ -19,6 +19,12 @@ add_executable(TravianPlanner)
 target_sources(TravianPlanner
 	PRIVATE
 		app/main.cpp
+		app/TPApp.cpp
+)
+
+target_include_directories(TravianPlanner
+	PRIVATE
+		app
 )
 
 target_link_libraries(TravianPlanner
